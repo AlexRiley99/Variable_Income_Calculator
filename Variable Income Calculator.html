@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Variable Income Calculator</title>
+        <link rel="stylesheet" href="Variable Income Calculator.css">
+        <script src="Variable Income Calculator.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Variable Income Calculator</h1>
+        </header>
+        <h1></h1>
+        <div id="formDiv">
+            <form id="incomeForm">
+                <fieldset id="payFrequencyFieldset">
+                    <legend>How Often Do You Get Paid?</legend>
+                    <h4 class="radioLabel">Weekly</h4><input type="radio" id="weeklyPay" class="payRadio" name="payRadio" value="Weekly">
+                    <h4 class="radioLabel">Bi-Weekly</h4><input type="radio" id="biweeklyPay" class="payRadio" name="payRadio" value="Bi-Weekly">
+                    <h4 class="radioLabel">Monthly</h4><input type="radio" id="monthlyPay" class="payRadio" name="payRadio" value="Monthly">
+                </fieldset>
+                <fieldset id="incomeFieldset">
+                    <legend>Enter A Paycheck Amount</legend>
+                    <label for="income">$</label><input type="text" id="income" placeholder="1500"> 
+                    <input type="button" id="add" value="Add" class="button"><input type="button" id="calculate" value="Calculate" class="button">
+                </fieldset>
+                <fieldset id="infoFieldset">
+                    <legend>Information Entered</legend>
+                        <h4 id="payFrequency"></h4>
+                        <h4 id="infoEntered"></h4>
+                </fieldset>
+                <fieldset id="calcFieldset">
+                    <legend>Calculations</legend>
+                        <h4 id="avgCheck"></h4>
+                        <h4 id="otherCalc"></h4>
+                        <h4 id="highestLowest"></h4>
+                </fieldset>
+            </form>
+            <input type="button" id="startOver" class="button" value="Start Over">
+        </div>
+        <footer>
+            <h5>Alex Riley | May 2024</h5>
+        </footer>
+    </body>
+</html>
