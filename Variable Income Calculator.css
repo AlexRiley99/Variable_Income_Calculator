@@ -27,6 +27,13 @@ footer{
     border-top: 5px double rgb(0, 18, 0);
     margin: 20px;
 }
+footer a{
+    text-decoration: none;
+    color: rgb(245, 239, 229); 
+    text-shadow:3px 3px 5px rgb(0, 18, 0), -3px -2px 5px rgb(0, 18, 0);
+    font-weight: bold;
+
+}
 
 fieldset{
     margin: 10px;
