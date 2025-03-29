@@ -18,6 +18,8 @@ h1{
 header{
     margin-top: 10px;
 }
+
+
 footer{
     text-align: center;
     color: rgb(245, 239, 229); 
@@ -33,17 +35,6 @@ footer a{
     text-shadow:3px 3px 5px rgb(0, 18, 0), -3px -2px 5px rgb(0, 18, 0);
     font-weight: bold;
 
-}
-
-fieldset{
-    margin: 10px;
-    border: 5px double rgba(245, 239, 229, 0.4);
-    border-radius: 10px;
-}
-legend{
-    color: rgb(0, 18, 0); 
-    text-shadow:3px 3px 5px rgb(245, 239, 229), -3px -2px 5px rgb(245, 239, 229);
-    font-weight: bold;
 }
 
 /*DIVS*/
@@ -81,6 +72,17 @@ legend{
     display: inline-block;
     vertical-align: middle;
     margin: auto 5px;
+}
+
+fieldset{
+    margin: 10px;
+    border: 5px double rgba(245, 239, 229, 0.4);
+    border-radius: 10px;
+}
+legend{
+    color: rgb(0, 18, 0); 
+    text-shadow:3px 3px 5px rgb(245, 239, 229), -3px -2px 5px rgb(245, 239, 229);
+    font-weight: bold;
 }
 
 /*BUTTONS*/
